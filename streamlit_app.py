@@ -3,7 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-from streamlit_elements import elements
+from streamlit_elements import elements, mui, html
 
 """
 # Welcome to Streamlit!
