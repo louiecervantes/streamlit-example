@@ -53,6 +53,7 @@ with elements("dashboard"):
     # Next, create a dashboard layout using the 'with' syntax. It takes the layout
     # as first parameter, plus additional properties you can find in the GitHub links below.
 
+    # I added this part to try and understand how dashboards work
     with dashboard.Grid(layout):
         mui.Paper("First item", key="first_item")
         mui.Paper("Second item (cannot drag)", key="second_item")
